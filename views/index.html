@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice Creation</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Create Invoice</h1>
+  <form id="invoiceForm">
+    <label for="customerName">Customer Name:</label>
+    <input type="text" id="customerName" name="customerName" required><br>
+
+    <label for="items">Items (JSON format):</label>
+    <textarea id="items" name="items" required></textarea><br>
+
+    <label for="totalAmount">Total Amount:</label>
+    <input type="number" id="totalAmount" name="totalAmount" required><br>
+
+    <button type="submit">Create Invoice</button>
+  </form>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
