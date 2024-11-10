@@ -1,0 +1,9 @@
+invoice-creator/
+├── server.js (backend code)
+├── views/
+│   └── index.html
+├── public/
+│   ├── css/
+│   └── js/
+└── database/
+    └── invoices.db
