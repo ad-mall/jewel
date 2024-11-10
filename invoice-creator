@@ -1,0 +1,4 @@
+mkdir invoice-creator
+cd invoice-creator
+npm init -y
+npm install express sqlite3 pdfkit body-parser
